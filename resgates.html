@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Histórias de Resgate | ONG Defenda o Hamster</title>
+  <meta property="og:title" content="Histórias de Resgate | ONG Defenda o Hamster" />
+  <meta property="og:description" content="Conheça as emocionantes histórias dos hamsters que resgatamos e encontre inspiração." />
+  <meta property="og:image" content="https://generative-models.web.app/images/07d8124d-e99d-4813-9118-8f55394b9f2c/banner-hamster.webp" /> 
+  <meta property="og:url" content="https://fabiodmu-ux.github.io/Meu-projeto/resgates.html" />
+  <meta property="og:type" content="website" />
+  
+  <link rel="stylesheet" href="assets/css/style.css">
+  
+  <style>
+      /* Estilos para garantir o visual consistente do layout (voluntarios/contato) */
+      body { font-family: 'Helvetica Neue', Arial, sans-serif; margin: 0; padding: 0; background-color: #e6e6e6; color: #333; }
+      header { background-color: #f39c12; color: white; padding: 40px 0; text-align: center; }
+      footer { background-color: #f39c12; color: white; text-align: center; padding: 20px; margin-top: 40px; }
+      
+      /* Estilo dos cards principais (content-box) */
+      .section { 
+          background-color: white; 
+          padding: 30px;
+          margin-bottom: 30px; 
+          border-radius: 8px; 
+          box-shadow: 0 4px 8px rgba(0,0,0,0.1); 
+      }
+      h2 { 
+          color: #d35400 !important;
+          text-align: center; 
+          margin-bottom: 30px; 
+      }
+      
+      /* 🖼️ ESTILO CRUCIAL PARA UNIFORMIZAR AS IMAGENS */
+      .rescue-story-card .card-img {
+          width: 100%; 
+          height: 220px; /* Altura fixa para consistência */
+          object-fit: cover; /* Garantir que a imagem cubra o espaço */
+          /* Note: As variáveis CSS como --border-radius-base devem estar em assets/css/style.css */
+          border-radius: 8px 8px 0 0; /* Borda arredondada no topo do card */
+          margin-bottom: 16px; /* Espaço abaixo da imagem (var(--space-sm)) */
+          margin-top: 0;
+          display: block;
+      }
+      
+      /* Ajuste fino dos títulos dos cards de história */
+      .rescue-story-card .card-header {
+          font-size: 1.2rem;
+          margin-bottom: 8px;
+          border-bottom: none;
+      }
+  </style>
+  
+</head>
+<body>
+  <header>
+    <h1>Histórias de Resgate</h1>
+    <p>Inspire-se com a força e a superação dos nossos pequenos heróis 💖</p>
+  </header>
+
+  <div class="nav-wrapper">
+    <nav>
+      <input type="checkbox" id="menu-toggle">
+      <label for="menu-toggle" class="hamburger">
+        <span class="hamburger-icon"></span>
+      </label>
+
+      <ul class="nav-links">
+        <li><a href="index.html">Início</a></li>
+        <li><a href="sobre.html">Sobre Nós</a></li>
+        <li class="dropdown">
+          <input type="checkbox" id="dropdown-toggle-projetos" class="dropdown-toggle">
+          <label for="dropdown-toggle-projetos" class="dropdown-label">Projetos ▼</label>
+          <ul class="dropdown-content">
+            <li><a href="projeto.html">Nosso Projeto</a></li>
+            <li><a href="resgates.html">Histórias de Resgate</a></li>
+            <li><a href="adote.html">Quero Adotar</a></li>
+          </ul>
+        </li>
+        <li><a href="voluntarios.html">Voluntários</a></li>
+        <li>
+          <a href="doacao.html" class="btn btn-primary">Doar</a>
+        </li>
+        <li><a href="contato.html">Contato</a></li>
+      </ul>
+    </nav>
+  </div>
+  
+  <main class="container">
+      <div class="main-content">
+          <section class="section">
+              <h2>Conheça Nossos Pequenos Gigantes</h2>
+              <p>Cada hamster que chega à ONG Defenda o Hamster traz consigo uma história única de superação.Eles nos ensinam sobre resiliência, coragem e a capacidade de amar novamente.Compartilhamos aqui algumas de suas jornadas, na esperança de que você também se inspire a fazer a diferença.</p>
+          </section>
+
+          <section class="section">
+              <h2>Nossos Heróis</h2>
+              <div class="rescue-stories-grid">
+                  
+                  <div class="card rescue-story-card">
+                      <img src="assets/img/hamster-pequeno.jpg" alt="Hamster Pipoca resgatado" class="card-img">
+                      <div class="card-content" style="padding: 0 16px 16px;">
+                          <h3 class="card-header">Pipoca: A Jornada da Descoberta <span class="badge badge-primary">Adotado</span></h3>
+                          <p>Encontrado em um jardim frio, Pipoca estava assustado e desnutrido. Com muito carinho e uma dieta especial, ele logo revelou sua personalidade curiosa e brincalhona.Hoje, Pipoca vive feliz em seu novo lar, explorando cada cantinho de sua gaiola espaçosa.</p>
+                          <p class="story-date">Resgatado em: 15/03/2024 </p>
+                      </div>
+                  </div>
+
+                  <div class="card rescue-story-card">
+                      <img src="assets/img/Hamster explorando a floresta.jpg" alt="Hamster Floresta em ambiente seguro" class="card-img">
+                      <div class="card-content" style="padding: 0 20px 20px;">
+                          <h3 class="card-header">Floresta: Uma Nova Vida no Lar <span class="badge badge-primary">Adotado</span></h3>
+                          [cite_start]<p>Floresta foi abandonada próximo a uma área verde e, por sorte, foi avistada por um de nossos voluntários[cite: 357]. [cite_start]Ela tinha uma pata machucada, mas com o tratamento veterinário adequado, recuperou-se completamente.Sua doçura conquistou a todos, e ela encontrou uma família que a ama incondicionalmente.</p>
+                          [cite_start]<p class="story-date">Resgatado em: 20/02/2024</p>
+                      </div>
+                  </div>
+
+                  <div class="card rescue-story-card">
+                      <img src="assets/img/na toca.jpg" alt="Hamster Toca na sua toca" class="card-img">
+                      <div class="card-content" style="padding: 0 30px 30px;">
+                          <h3 class="card-header">Toca: O Pequeno Roborovski <span class="badge badge-secondary">Em Adoção</span></h3>
+                          [cite_start]<p>Toca, um roborovski muito tímido, foi resgatado de uma situação de superlotação.Ele precisou de um tempo para confiar novamente nos humanos.Agora, mais confiante, ele adora correr na sua roda e se esconder em sua aconchegante toca. Está pronto para encontrar um lar tranquilo.</p>
+                          [cite_start]<p class="story-date">Resgatado em: 05/04/2024 </p>
+                      </div>
+                  </div>
+
+                  <div class="card rescue-story-card">
+                      <img src="assets/img/Hamster e coelho na floresta.jpg" alt="Hamster Amigo e seu companheiro" class="card-img">
+                      <div class="card-content" style="padding: 0 16px 16px;">
+                          <h3 class="card-header">Amigo: O Poder da Companhia <span class="badge badge-primary">Adotado</span></h3>
+                          <p>Amigo foi resgatado junto com outro hamster após o falecimento de seu antigo tutor. Ele sentia muita falta de companhia. Foi adotado com seu amigo por uma família que valoriza o bem-estar social dos hamsters.</p>
+                          <p class="story-date">Resgatado em: 10/01/2024</p>
+                      </div>
+                  </div>
+                  
+                  <div style="grid-column: 1 / -1; text-align: center; margin-top: 32px;">
+                      <p>Gostou dessas histórias? <a href="adote.html" class="btn btn-primary" style="margin-top: 8px;">Adote um Hamster!</a></p>
+                  </div>
+              </div>
+          </section>
+
+      </div>
+      
+      <aside class="sidebar">
+          <div class="card section" style="padding: 24px;">
+              <h3 class="card-header" style="border-bottom: 1px dotted #ccc; padding-bottom: 5px;">Participe!</h3>
+              <p>Sua ajuda é vital para a missão Defenda o Hamster.</p>
+              <a href="doacao.html" class="btn btn-primary" style="width: 100%; margin-bottom: 16px;">Fazer uma Doação</a>
+              <a href="voluntarios.html" class="btn" style="width: 100%; background-color: #27ae60; color: white;">Seja Voluntário</a>
+          </div>
+
+          <div class="card section" style="padding: 24px;">
+              <h3 class="card-header" style="border-bottom: 1px dotted #ccc; padding-bottom: 5px;">Apoie a Adoção</h3>
+              <p>Conheça todos os nossos pequenos heróis que estão prontos para encontrar um lar seguro e amoroso.</p>
+              <a href="adote.html" class="btn btn-primary" style="width: 100%;">Quero Adotar</a>
+          </div>
+      </aside>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 ONG Defenda o Hamster — Todos os direitos reservados</p>
+    <p>Nos siga nas redes sociais: @defendaohamster</p>
+    <p>Contato: defendaohamster@ong.org</p>
+  </footer>
+</body>
+</html>

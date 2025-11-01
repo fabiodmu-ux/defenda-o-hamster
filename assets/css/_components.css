@@ -1,0 +1,101 @@
+/*
+ * ⚙️ MÓDULO COMPONENTES: Cards, Botões, Formulários, Badges e Alerts
+ */
+
+/* Card Component */
+.card {
+  background-color: white;
+  padding: var(--space-md);
+  border-radius: var(--border-radius-base);
+  box-shadow: var(--shadow-base);
+  margin-bottom: var(--space-md);
+}
+
+.card-header {
+  font-size: var(--font-size-lg);
+  color: var(--color-primary-dark);
+  margin-bottom: var(--space-sm);
+  padding-bottom: var(--space-xs);
+  border-bottom: 2px solid var(--color-neutral-light);
+}
+
+/* Botões */
+.btn {
+  display: inline-block;
+  padding: var(--space-xs) var(--space-sm);
+  border-radius: var(--border-radius-base);
+  font-size: var(--font-size-sm);
+  text-decoration: none;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.1s, opacity 0.3s;
+  border: none;
+  text-align: center;
+}
+
+.btn-primary {
+  background-color: var(--color-primary);
+  color: var(--color-text-header);
+}
+.btn-primary:hover, .btn-primary:focus {
+  background-color: var(--color-primary-dark);
+  transform: translateY(-2px);
+}
+.btn-primary:active {
+  transform: translateY(0);
+}
+.btn-primary:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+/* Formulários */
+.form-group {
+  margin-bottom: var(--space-sm);
+}
+.form-control {
+  width: 100%;
+  padding: var(--space-xs);
+  border: 1px solid var(--color-neutral-medium);
+  border-radius: var(--border-radius-base);
+  font-size: var(--font-size-sm);
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+.form-control:focus {
+  border-color: var(--color-secondary);
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(52, 152, 219, 0.3);
+}
+
+/* Badges e Tags */
+.badge {
+  display: inline-block;
+  padding: 2px var(--space-xs);
+  border-radius: var(--border-radius-base);
+  font-size: var(--font-size-xs);
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-left: var(--space-xs);
+}
+.badge-primary {
+  background-color: var(--color-primary);
+  color: var(--color-text-header);
+}
+.badge-secondary {
+  background-color: var(--color-secondary);
+  color: var(--color-text-header);
+}
+
+/* Alertas (Componente de Feedback) */
+.alert {
+  padding: var(--space-sm);
+  border-radius: var(--border-radius-base);
+  margin-bottom: var(--space-md);
+  font-weight: bold;
+  border: 1px solid transparent;
+}
+.alert-success {
+  background-color: #d4edda;
+  color: #155724;
+  border-color: #c3e6cb;
+}

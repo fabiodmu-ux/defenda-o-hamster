@@ -1,0 +1,89 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Histórias de Resgate | ONG Defenda o Hamster</title>
+  <meta property="og:title" content="Histórias de Resgate | ONG Defenda o Hamster" />
+  <meta property="og:description" content="Conheça as emocionantes histórias dos hamsters que resgatamos e encontre inspiração." />
+  <meta property="og:image" content="https://generative-models.web.app/images/07d8124d-e99d-4813-9118-8f55394b9f2c/banner-hamster.webp" /> <meta property="og:url" content="https://fabiodmu-ux.github.io/Meu-projeto/resgates.html" />
+  <meta property="og:type" content="website" />
+  
+  <link rel="stylesheet" href="assets/css/style.css">
+  
+</head>
+<body>
+  <header>
+    <h1>Histórias de Resgate</h1>
+    <p>Inspire-se com a força e a superação dos nossos pequenos heróis 💖</p>
+  </header>
+
+  <div class="nav-wrapper">
+    <nav>
+      <input type="checkbox" id="menu-toggle">
+      <label for="menu-toggle" class="hamburger">
+        <span class="hamburger-icon"></span>
+      </label>
+
+      <ul class="nav-links">
+        <li><a href="index.html">Início</a></li>
+        <li><a href="sobre.html">Sobre Nós</a></li>
+        <li class="dropdown">
+          <a href="#">Projetos ▼</a>
+          <ul class="dropdown-content">
+            <li><a href="projeto.html">Nosso Projeto</a></li>
+            <li><a href="resgates.html">Histórias de Resgate</a></li>
+            <li><a href="adote.html">Quero Adotar</a></li>
+          </ul>
+        </li>
+        <li><a href="voluntarios.html">Voluntários</a></li>
+        <li>
+          <a href="doacao.html" class="btn btn-primary">Doar</a>
+        </li>
+        <li><a href="contato.html">Contato</a></li>
+      </ul>
+    </nav>
+  </div>
+  
+  <main class="container">
+      <div class="main-content">
+          <div class="section">
+              <h2>Conheça Nossos Pequenos Gigantes</h2>
+              <p>Cada hamster que chega à ONG Defenda o Hamster traz consigo uma história única de superação. Eles nos ensinam sobre resiliência, coragem e a capacidade de amar novamente. Compartilhamos aqui algumas de suas jornadas, na esperança de que você também se inspire a fazer a diferença.</p>
+          </div>
+
+          <section class="section">
+              <h2>Nossos Heróis</h2>
+              <div class="rescue-stories-grid">
+                  <div class="card rescue-story-card">
+                      <img src="assets/img/hamster-pequeno.jpg" alt="Hamster Pipoca resgatado" class="card-img">
+                      <div class="card-content">
+                          <h3 class="card-header">Pipoca: A Jornada da Descoberta <span class="badge badge-primary">Adotado</span></h3>
+                          <p>Encontrado em um jardim frio, Pipoca estava assustado e desnutrido. Com muito carinho e uma dieta especial, ele logo revelou sua personalidade curiosa e brincalhona. Hoje, Pipoca vive feliz em seu novo lar, explorando cada cantinho de sua gaiola espaçosa.</p>
+                          <p class="story-date">Resgatado em: 15/03/2024</p>
+                      </div>
+                  </div>
+
+                  <div class="card rescue-story-card">
+                      <img src="assets/img/Hamster explorando a floresta.jpg" alt="Hamster Floresta em ambiente seguro" class="card-img">
+                      <div class="card-content">
+                          <h3 class="card-header">Floresta: Uma Nova Vida no Lar <span class="badge badge-primary">Adotado</span></h3>
+                          <p>Floresta foi abandonada próximo a uma área verde e, por sorte, foi avistada por um de nossos voluntários. Ela tinha uma pata machucada, mas com o tratamento veterinário adequado, recuperou-se completamente. Sua doçura conquistou a todos, e ela encontrou uma família que a ama incondicionalmente.</p>
+                          <p class="story-date">Resgatado em: 20/02/2024</p>
+                      </div>
+                  </div>
+
+                  <div class="card rescue-story-card">
+                      <img src="assets/img/na toca.jpg" alt="Hamster Toca na sua toca" class="card-img">
+                      <div class="card-content">
+                          <h3 class="card-header">Toca: O Pequeno Roborovski <span class="badge badge-secondary">Em Adoção</span></h3>
+                          <p>Toca, um roborovski muito tímido, foi resgatado de uma situação de superlotação. Ele precisou de um tempo para confiar novamente nos humanos. Agora, mais confiante, ele adora correr na sua roda e se esconder em sua aconchegante toca. Está pronto para encontrar um lar tranquilo.</p>
+                          <p class="story-date">Resgatado em: 05/04/2024</p>
+                      </div>
+                  </div>
+
+                  <div class="card rescue-story-card">
+                      <img src="assets/img/Hamster e coelho na floresta.jpg" alt="Hamster Amigo e seu companheiro" class="card-img">
+                      <div class="card-content">
+                          <h3 class="card-header">Amigo: O Poder da Companhia <span class="badge badge-

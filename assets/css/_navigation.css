@@ -1,0 +1,143 @@
+/*
+ * 🧭 MÓDULO NAVEGAÇÃO: Header, Menu Responsivo e Dropdown
+ */
+
+/* Navegação Principal (Fixa) */
+.nav-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: var(--color-text-header);
+  box-shadow: var(--shadow-base);
+  z-index: 1000;
+}
+
+nav {
+  max-width: var(--breakpoint-xl);
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--space-xs) var(--space-sm);
+}
+
+/* Menu Desktop (Escondido em Mobile First) */
+.nav-links {
+  display: none; 
+  list-style: none;
+}
+
+.nav-links li {
+  position: relative;
+}
+
+.nav-links a {
+  color: var(--color-neutral-dark);
+  text-decoration: none;
+  padding: var(--space-xs) var(--space-sm);
+  display: block;
+  transition: color 0.3s, background-color 0.3s;
+}
+
+.nav-links a:hover {
+  background-color: var(--color-neutral-light);
+  color: var(--color-primary);
+}
+
+/* Submenu Dropdown */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: var(--color-text-header);
+  box-shadow: var(--shadow-base);
+  min-width: 160px;
+  z-index: 1;
+  top: 100%;
+  left: 0;
+  border-top: 3px solid var(--color-primary);
+  list-style: none;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-content a {
+  padding: var(--space-xs) var(--space-sm);
+  white-space: nowrap;
+}
+
+/* Menu Hambúrguer (Mobile) */
+#menu-toggle {
+  display: none; 
+}
+
+.hamburger {
+  display: block; /* Mostrar no mobile */
+  cursor: pointer;
+  padding: var(--space-xs);
+  z-index: 1001;
+}
+
+.hamburger-icon,
+.hamburger-icon::before,
+.hamburger-icon::after {
+  display: block;
+  width: 25px;
+  height: 3px;
+  background-color: var(--color-neutral-dark);
+  transition: all 0.3s ease-in-out;
+}
+
+.hamburger-icon::before {
+  content: '';
+  transform: translateY(-8px);
+}
+
+.hamburger-icon::after {
+  content: '';
+  transform: translateY(5px);
+}
+
+/* Animação do X e Menu Mobile Aberto */
+#menu-toggle:checked + .hamburger .hamburger-icon {
+  background-color: transparent;
+}
+#menu-toggle:checked + .hamburger .hamburger-icon::before {
+  transform: rotate(45deg) translate(5px, 5px);
+}
+#menu-toggle:checked + .hamburger .hamburger-icon::after {
+  transform: rotate(-45deg) translate(5px, -5px);
+}
+
+#menu-toggle:checked ~ .nav-links {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 60px; /* Altura da navbar */
+  left: 0;
+  width: 100%;
+  background-color: var(--color-text-header);
+  box-shadow: var(--shadow-base);
+  padding-bottom: var(--space-sm);
+}
+
+/* --- Breakpoints de Navegação --- */
+@media (min-width: var(--breakpoint-lg)) {
+  /* Navegação Desktop */
+  .hamburger {
+    display: none;
+  }
+  .nav-links {
+    display: flex; /* Mostrar menu desktop */
+    flex-direction: row;
+    gap: var(--space-sm);
+    position: static;
+    box-shadow: none;
+    padding-bottom: 0;
+  }
+  .nav-wrapper {
+    padding: 0 var(--space-sm);
+  }
+}

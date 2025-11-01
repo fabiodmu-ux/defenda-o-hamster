@@ -1,0 +1,32 @@
+/*
+ * 🐹 Arquivo principal que importa todos os módulos CSS
+ * Ordem de Importação (Hierarquia)
+ */
+
+@import url('_base.css');
+@import url('_layout.css');
+@import url('_navigation.css');
+@import url('_components.css');
+
+/* Estilos específicos que precisam vir por último (opcional) */
+.banner {
+  width: 100%;
+  max-height: 400px;
+  object-fit: cover;
+  border-bottom: 5px solid var(--color-primary);
+  display: block; 
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+.gallery img {
+  width: 250px;       /* todas terão a mesma largura */
+  height: 180px;      /* todas terão a mesma altura */
+  object-fit: cover;  /* corta a imagem sem distorcer */
+  border-radius: 8px; /* opcional, deixa cantos arredondados */
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}

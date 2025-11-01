@@ -1,0 +1,134 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adote um Hamster | ONG Defenda o Hamster</title>
+    
+    <meta property="og:title" content="Adote um Hamster | ONG Defenda o Hamster" />
+    <meta property="og:description" content="Encontre seu novo amigo roedor! Conheça nossos hamsters e inicie seu processo de adoção responsável." />
+    <meta property="og:image" content="https://generative-models.web.app/images/07d8124d-e99d-4813-9118-8f55394b9f2c/banner-hamster.webp" />
+    
+    <link rel="stylesheet" href="assets/css/style.css"> 
+    
+</head>
+<body>
+    <header>
+        <h1>Adote um Hamster</h1>
+        <p>Dê um lar seguro e amoroso a um pequeno sobrevivente! 🏡</p>
+    </header>
+
+    <div class="nav-wrapper">
+        <nav>
+            <input type="checkbox" id="menu-toggle">
+            <label for="menu-toggle" class="hamburger">
+                <span class="hamburger-icon"></span>
+            </label>
+
+            <ul class="nav-links">
+                <li><a href="index.html">Início</a></li>
+                <li><a href="sobre.html">Sobre Nós</a></li>
+                <li class="dropdown">
+                    <input type="checkbox" id="dropdown-toggle-projetos" class="dropdown-toggle">
+                    <label for="dropdown-toggle-projetos" class="dropdown-label">Projetos ▼</label>
+                    <ul class="dropdown-content">
+                        <li><a href="projeto.html">Nosso Projeto</a></li>
+                        <li><a href="resgates.html">Histórias de Resgate</a></li>
+                        <li><a href="adote.html">Quero Adotar</a></li>
+                    </ul>
+                </li>
+                <li><a href="voluntarios.html">Voluntários</a></li>
+                <li>
+                    <a href="doacao.html" class="btn btn-primary">Doar</a>
+                </li> 
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </div>
+    
+    <div class="container">
+        <main class="main-content">
+            
+            <div class="section">
+                <h2>Processo de Adoção Responsável</h2>
+                <p>Nosso processo garante que cada hamster encontre um lar que atenda às suas necessidades específicas. A adoção é um ato de amor e responsabilidade que dura toda a vida do animal.</p>
+                
+                <ol class="adoption-process-list">
+                    <li><strong>1. Cadastro:</strong> Preenchimento do formulário de pré-adoção (online).</li>
+                    <li><strong>2. Entrevista:</strong> Conversa com um voluntário para entender seu perfil e expectativas.</li>
+                    <li><strong>3. Vistoria (Opcional):</strong> Avaliação do ambiente onde o hamster viverá.</li>
+                    <li><strong>4. Assinatura:</strong> Compromisso e termo de responsabilidade assinado.</li>
+                    <li><strong>5. Encontro:</strong> Adoção e entrega do seu novo amigo!</li>
+                </ol>
+                
+                <div class="alert alert-warning">
+                    <p>Requisitos Mínimos: Você deve possuir uma gaiola de tamanho adequado (mínimo 80x40cm), compromisso com a alimentação correta e acesso a veterinário especializado em roedores.</p>
+                </div>
+                
+                <a href="contato.html" class="btn btn-primary">Iniciar Meu Cadastro de Adoção</a>
+            </div>
+            
+            <div class="section">
+                <h2>Conheça Nossos Pequenos em Busca de Lar</h2>
+                <p>Todos os hamsters listados abaixo estão saudáveis, vermifugados, e prontos para amar e serem amados.</p>
+                
+                <div class="rescue-stories-grid">
+                    
+                    <div class="card rescue-story-card">
+                        <img src="assets/img/curioso.jpg" alt="Hamster Pipo" class="card-img">
+                        <div class="card-content">
+                            <h3 class="card-header">Pipo <span class="badge badge-secondary">Sírio</span></h3>
+                            <p>Um sírio macho, muito curioso e adora explorar túneis. Ideal para quem já tem experiência com roedores.</p>
+                            <p class="story-date">Idade: 6 meses | Gosta de: Rodar na roda</p>
+                            <a href="contato.html" class="btn btn-primary btn-sm">Adotar Pipo</a>
+                        </div>
+                    </div>
+
+                    <div class="card rescue-story-card">
+                        <img src="assets/img/hamster na floresta.jpg" alt="Hamster Lilica" class="card-img">
+                        <div class="card-content">
+                            <h3 class="card-header">Lilica <span class="badge badge-secondary">Roborovski</span></h3>
+                            <p>Pequenina e rápida! Lilica é muito sociável, mas tímida no início. Requer um ambiente bem calmo.</p>
+                            <p class="story-date">Idade: 4 meses | Gosta de: Se esconder em tocas</p>
+                            <a href="contato.html" class="btn btn-primary btn-sm">Adotar Lilica</a>
+                        </div>
+                    </div>
+
+                    <div class="card rescue-story-card">
+                        <img src="assets/img/na toca.jpg" alt="Hamster Sushi" class="card-img">
+                        <div class="card-content">
+                            <h3 class="card-header">Sushi <span class="badge badge-secondary">Chinês</span></h3>
+                            <p>Sushi é um hamster chinês tranquilo. Perfeito para famílias com crianças maiores que saibam manuseá-lo com cuidado.</p>
+                            <p class="story-date">Idade: 1 ano | Gosta de: Sementes de girassol</p>
+                            <a href="contato.html" class="btn btn-primary btn-sm">Adotar Sushi</a>
+                        </div>
+                    </div>
+                </div>
+
+                <p style="text-align: center; margin-top: var(--space-lg);">Não encontrou o par perfeito? Nossa lista de espera está aberta! <a href="contato.html" class="btn">Entre na Lista de Espera</a></p>
+            </div>
+            
+        </main>
+
+        <aside class="sidebar">
+            <div class="card">
+                <h3 class="card-header">Adote com Consciência</h3>
+                <p>Lembre-se: hamsters vivem, em média, de 2 a 3 anos. É um compromisso de longo prazo que requer dedicação e atenção aos seus hábitos noturnos.</p>
+            </div>
+
+            <div class="card">
+                <h3 class="card-header">Apoie o Resgate</h3>
+                <p>Se não pode adotar, sua doação ajuda a cobrir o custo de vacinas, ração e substrato para os hamsters que esperam por um lar.</p>
+                <a href="doacao.html" class="btn btn-primary" style="width: 100%;">Fazer uma Doação</a>
+            </div>
+        </aside>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 ONG Defenda o Hamster — Todos os direitos reservados</p>
+        <p>Nos siga nas redes sociais: <a href="#">@defendaohamster</a></p>
+        <p>Contato: <a href="mailto:defendaohamster@ong.org">defendaohamster@ong.org</a></p>
+    </footer>
+</body>
+</html>

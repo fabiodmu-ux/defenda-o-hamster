@@ -1,0 +1,93 @@
+/*
+ * 🐹 MÓDULO BASE: Variáveis, Reset e Tipografia
+ */
+
+/* Variáveis CSS Customizadas (Tokens de Design) */
+:root {
+  /* Cores */
+  --color-primary: #f39c12;       /* Laranja Hamster */
+  --color-primary-dark: #e67e22;  /* Laranja Escuro */
+  --color-secondary: #3498db;     /* Azul Adoção */
+  --color-secondary-dark: #2980b9;
+  --color-neutral-lightest: #f4f4f4; /* Fundo Leve */
+  --color-neutral-light: #ecf0f1;  /* Fundo da Seção */
+  --color-neutral-medium: #bdc3c7; /* Borda/Sombra */
+  --color-neutral-dark: #34495e;  /* Texto Forte */
+  --color-text-body: #555;        /* Corpo do Texto */
+  --color-text-header: white;     /* Texto do Header */
+  --color-success: #2ecc71;       /* Sucesso/Alerta Positivo */
+  --color-danger: #e74c3c;        /* Perigo/Erro */
+
+  /* Tipografia */
+  --font-family-base: 'Arial', sans-serif;
+  --font-size-xs: 0.8rem;
+  --font-size-sm: 1rem;
+  --font-size-md: 1.125rem;
+  --font-size-lg: 1.5rem;
+  --font-size-xl: 2rem;
+  --font-size-xxl: 3rem; 
+
+  /* Espaçamento Modular (Múltiplos de 8px) */
+  --space-xs: 8px;
+  --space-sm: 16px;
+  --space-md: 24px;
+  --space-lg: 32px;
+  --space-xl: 48px;
+  --space-xxl: 64px;
+
+  /* Breakpoints Responsivos */
+  --breakpoint-sm: 576px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 992px;
+  --breakpoint-xl: 1200px;
+  --breakpoint-xxl: 1400px;
+
+  /* Outros */
+  --border-radius-base: 8px;
+  --shadow-base: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.06);
+}
+
+/* Reset Básico */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilos de Corpo e Tipografia */
+body {
+  font-family: var(--font-family-base);
+  font-size: var(--font-size-sm);
+  line-height: 1.6;
+  color: var(--color-text-body);
+  background-color: var(--color-neutral-lightest);
+  padding-top: 60px; /* Espaço para o menu fixo */
+}
+
+h1 { font-size: var(--font-size-xxl); }
+h2 { font-size: var(--font-size-xl); margin-bottom: var(--space-md); color: var(--color-primary-dark); }
+h3 { font-size: var(--font-size-lg); margin-bottom: var(--space-sm); color: var(--color-secondary); }
+p { margin-bottom: var(--space-sm); }
+
+header {
+  background-color: var(--color-primary);
+  color: var(--color-text-header);
+  padding: var(--space-lg) 0;
+  text-align: center;
+}
+
+footer {
+  background-color: var(--color-primary-dark);
+  color: var(--color-text-header);
+  text-align: center;
+  padding: var(--space-lg);
+  margin-top: var(--space-xl);
+}
+footer a {
+    color: var(--color-text-header);
+    text-decoration: none;
+    font-weight: bold;
+}
+footer a:hover {
+    text-decoration: underline;
+}

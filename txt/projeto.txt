@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nossos Projetos | ONG Defenda o Hamster</title>
+    
+    <meta property="og:title" content="Nossos Projetos | ONG Defenda o Hamster" />
+    <meta property="og:description" content="Conheça os três pilares do nosso trabalho: Resgate, Reabilitação e Educação para o bem-estar dos roedores." />
+    <meta property="og:image" content="https://generative-models.web.app/images/07d8124d-e99d-4813-9118-8f55394b9f2c/banner-hamster.webp" />
+    
+    <link rel="stylesheet" href="assets/css/style.css"> 
+    
+    <style>
+        /* ESTILOS REPLICADOS DE voluntarios.txt */
+        body { 
+            font-family: 'Helvetica Neue', Arial, sans-serif; 
+            margin: 0; padding: 0; 
+            background-color: #e6e6e6;  
+            color: #333; 
+        }
+        header { 
+            background-color: #f39c12; [cite: 162] 
+            color: white; [cite: 162] 
+            padding: 40px 0; [cite: 162] 
+            text-align: center; [cite: 162] 
+        }
+        /* Ajuste do layout para usar content-box */
+        .content-box { 
+            background-color: white; 
+            padding: 30px; [cite: 168]
+            margin-bottom: 30px; 
+            border-radius: 8px; 
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1); [cite: 169] 
+        }
+        h2 { 
+            color: #d35400 !important; /* Cor dos títulos em Voluntarios */ [cite: 170]
+            text-align: center; [cite: 170] 
+            margin-bottom: 30px; [cite: 170] 
+        }
+        h3 { 
+            color: #2c3e50; [cite: 171] 
+            border-bottom: 1px dotted #ccc; [cite: 171] 
+            padding-bottom: 5px; [cite: 171] 
+        }
+        /* Estilo do Rodapé */
+        footer { 
+            background-color: #f39c12; [cite: 180] 
+            color: white; [cite: 180] 
+            text-align: center; [cite: 180] 
+            padding: 20px; [cite: 180] 
+            margin-top: 40px; [cite: 180] 
+        }
+    </style>
+    
+</head>
+<body>
+    <header>
+        <h1>Nossos Projetos</h1>
+        <p>Transformando pequenos resgates em grandes histórias de sucesso 🌍</p>
+    </header>
+
+    <div class="nav-wrapper">
+        <nav>
+            <input type="checkbox" id="menu-toggle">
+            <label for="menu-toggle" class="hamburger">
+                <span class="hamburger-icon"></span>
+            </label>
+
+            <ul class="nav-links">
+                <li><a href="index.html">Início</a></li>
+                <li><a href="sobre.html">Sobre Nós</a></li>
+                <li class="dropdown">
+                    <input type="checkbox" id="dropdown-toggle-projetos" class="dropdown-toggle">
+                    <label for="dropdown-toggle-projetos" class="dropdown-label">Projetos ▼</label>
+                    <ul class="dropdown-content">
+                        <li><a href="projeto.html">Nosso Projeto</a></li>
+                        <li><a href="resgates.html">Histórias de Resgate</a></li>
+                        <li><a href="adote.html">Quero Adotar</a></li>
+                    </ul>
+                </li>
+                <li><a href="voluntarios.html">Voluntários</a></li>
+                <li>
+                    <a href="doacao.html" class="btn btn-primary">Doar</a>
+                </li> 
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </div>
+    
+    <div class="container">
+        <main class="main-content">
+            
+            <section class="content-box">
+                <h2>Os Três Pilares do Nosso Trabalho <span class="badge badge-primary">Impacto</span></h2>
+                <p>O Projeto Defenda o Hamster é estruturado em três frentes de ação que garantem o ciclo completo de cuidado, desde o momento do abandono até a conscientização da sociedade.</p>
+                
+                <img src="assets/img/Hamster e coelho na floresta.jpg" alt="Hamster e coelho representando parceria e cuidado" style="max-width: 90%; margin: var(--space-md) auto; display: block; border-radius: var(--border-radius-base);">
+
+                <div class="grid-12-col" style="margin-top: var(--space-lg);">
+                    
+                    <div class="col-span-12 col-lg-4">
+                        <div class="card" style="min-height: 280px;">
+                            <h3 class="card-header">1. Resgate e Acolhimento</h3>
+                            <span class="badge badge-secondary" style="margin-bottom: var(--space-sm); display: inline-block;">Ação Imediata</span>
+                            <p>Respondemos a chamados de abandono e maus-tratos, garantindo o transporte seguro e o primeiro acolhimento em lares temporários equipados.</p>
+                            <img src="assets/img/hamster-pequeno.jpg" alt="Hamster recém resgatado" style="max-width: 100%; height: 100px; object-fit: cover; margin-top: var(--space-sm);">
+                            <a href="resgates.html" class="btn" style="background-color: #27ae60; color: white; margin-top: var(--space-sm);">Ver Histórias</a> [cite: 176]
+                        </div>
+                    </div>
+                    
+                    <div class="col-span-12 col-lg-4">
+                        <div class="card" style="min-height: 280px;">
+                            <h3 class="card-header">2. Reabilitação e Saúde</h3>
+                            <span class="badge badge-secondary" style="margin-bottom: var(--space-sm); display: inline-block;">Cuidado Veterinário</span>
+                            <p>Oferecemos tratamento veterinário especializado, dieta balanceada e reabilitação comportamental para que o roedor esteja 100% pronto para a adoção.</p>
+                            <img src="assets/img/na toca.jpg" alt="Hamster recebendo cuidados na toca" style="max-width: 100%; height: 100px; object-fit: cover; margin-top: var(--space-sm);">
+                            <div class="alert alert-success">
+                                <p>Sua doação cobre este pilar essencial!</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-span-12 col-lg-4">
+                        <div class="card" style="min-height: 280px;">
+                            <h3 class="card-header">3. Educação e Prevenção</h3>
+                            <span class="badge badge-secondary" style="margin-bottom: var(--space-sm); display: inline-block;">Guarda Responsável</span>
+                            <p>Criamos e distribuímos materiais educativos sobre as necessidades de espaço, dieta e comportamento dos hamsters, prevenindo futuros abandonos.</p>
+                            <img src="assets/img/Hamster explorando a floresta.jpg" alt="Hamster em ambiente seguro para educação" style="max-width: 100%; height: 100px; object-fit: cover; margin-top: var(--space-sm);">
+                            <a href="sobre.html" class="btn btn-primary" style="margin-top: var(--space-sm);">Saiba Mais</a> [cite: 39]
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+            
+            <section class="content-box">
+                <h2>Impacto e Metas</h2>
+                <p>Nossos resultados crescem a cada ano graças aos voluntários e doadores. Aqui estão alguns dados do nosso último relatório:</p>
+                
+                <div class="grid-12-col" style="text-align: center; margin-bottom: var(--space-md);">
+                    <div class="col-span-12 col-md-4">
+                        <h1 style="color: var(--color-secondary); margin-bottom: var(--space-xs);">150+</h1> [cite: 128]
+                        <p>Hamsters resgatados no último ano</p>
+                    </div>
+                    <div class="col-span-12 col-md-4">
+                        <h1 style="color: var(--color-secondary); margin-bottom: var(--space-xs);">95%</h1> [cite: 129]
+                        <p>Taxa de sucesso na adoção responsável</p>
+                    </div>
+                    <div class="col-span-12 col-md-4">
+                        <h1 style="color: var(--color-secondary); margin-bottom: var(--space-xs);">25+</h1> [cite: 130]
+                        <p>Voluntários ativos em lares temporários</p>
+                    </div>
+                </div>
+
+                <div class="alert alert-info" style="background-color: #f4f4f4; border-color: var(--color-primary);"> [cite: 137]
+                    <p>Meta para 2026: Abrir um centro de triagem dedicado. Ajude-nos a alcançar essa meta doando!</p>
+                </div>
+            </section>
+            
+        </main>
+
+        <aside class="sidebar">
+            <div class="card content-box" style="padding: var(--space-md);">
+                <h3 class="card-header">Como Ajudar Nossos Projetos?</h3>
+                <p>Nossos projetos dependem do seu apoio contínuo. Escolha como fazer a diferença:</p>
+                
+                <a href="doacao.html" class="btn btn-primary" style="width: 100%; margin-bottom: var(--space-sm);">Fazer uma Doação</a> [cite: 39]
+                <a href="voluntarios.html" class="btn" style="width: 100%; background-color: #27ae60; color: white;">Ser Voluntário</a> [cite: 176]
+            </div>
+
+            <div class="card content-box" style="padding: var(--space-md);">
+                <h3 class="card-header">Apadrinhe um Projeto</h3>
+                <p>Temos custos fixos com alimentação, medicamentos e substrato. Que tal apadrinhar um dos nossos pilares de projeto?</p>
+                <a href="contato.html" class="btn btn-primary">Fale sobre Apadrinhamento</a> [cite: 39]
+            </div>
+        </aside>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 ONG Defenda o Hamster — Todos os direitos reservados</p> [cite: 192]
+        <p>Nos siga nas redes sociais: <a href="#">@defendaohamster</a></p>
+        <p>Contato: <a href="mailto:defendaohamster@ong.org">defendaohamster@ong.org</a></p>
+    </footer>
+</body>
+</html>
